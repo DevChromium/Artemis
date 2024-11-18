@@ -73,7 +73,7 @@ public final class HadesService extends Service {
     private void tryCreateConnection() {
         try {
             hadesConnection = new HadesNetworkBuilder()
-                    .setAddress(InetAddress.getByName("io.wynntils.com"), 9000)
+                    .setAddress(InetAddress.getByName("io.w.scyu.dev"), 9000)
                     .setDirection(PacketDirection.SERVER)
                     .setCompressionThreshold(256)
                     .setHandlerFactory(a -> new HadesClientHandler(a, userRegistry))

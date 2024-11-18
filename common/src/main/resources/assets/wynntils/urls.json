@@ -4,7 +4,7 @@
   },
   {
     "id": "apiAthenaAuthPublicKey",
-    "url": "https://athena.wynntils.com/auth/getPublicKey"
+    "url": "https://athena.w.scyu.dev/auth/getPublicKey"
   },
   {
     "arguments": [
@@ -14,7 +14,7 @@
     ],
     "id": "apiAthenaAuthResponse",
     "method": "post",
-    "url": "https://athena.wynntils.com/auth/responseEncryption"
+    "url": "https://athena.w.scyu.dev/auth/responseEncryption"
   },
   {
     "arguments": [
@@ -22,7 +22,7 @@
     ],
     "id": "apiAthenaTelemetryCrash",
     "method": "post",
-    "url": "https://athena.wynntils.com/crash/report"
+    "url": "https://athena.w.scyu.dev/crash/report"
   },
   {
     "arguments": [
@@ -30,14 +30,14 @@
       "new_version"
     ],
     "id": "apiAthenaUpdateChangelog",
-    "url": "https://athena.wynntils.com/version/changelog/%{old_version}/%{new_version}"
+    "url": "https://athena.w.scyu.dev/version/changelog/%{old_version}/%{new_version}"
   },
   {
     "arguments": [
       "stream"
     ],
     "id": "apiAthenaUpdateCheck",
-    "url": "https://athena.wynntils.com/version/latest/%{stream}"
+    "url": "https://athena.w.scyu.dev/version/latest/%{stream}"
   },
   {
     "arguments": [
@@ -45,7 +45,7 @@
     ],
     "id": "apiAthenaUserInfo",
     "method": "post",
-    "url": "https://athena.wynntils.com/user/getInfo"
+    "url": "https://athena.w.scyu.dev/user/getInfo"
   },
   {
     "arguments": [
@@ -73,15 +73,15 @@
   },
   {
     "id": "dataAthenaGuildList",
-    "url": "https://athena.wynntils.com/cache/get/guildList"
+    "url": "https://athena.w.scyu.dev/cache/get/guildList"
   },
   {
     "id": "dataAthenaLeaderboard",
-    "url": "https://athena.wynntils.com/cache/get/leaderboard"
+    "url": "https://athena.w.scyu.dev/cache/get/leaderboard"
   },
   {
     "id": "dataAthenaServerList",
-    "url": "https://athena.wynntils.com/cache/get/serverList"
+    "url": "https://athena.w.scyu.dev/cache/get/serverList"
   },
   {
     "id": "dataStaticAbilities",
